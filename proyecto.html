@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Web - Proyectos</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="./index.html" class="logo">
+        ⚡ <span>PorTFolio</span>.dev
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./proyecto.html" class="active">Proyectos</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="badge">📂 Sección de Proyectos</span>
+      <h1>Mis <span class="gradient-text">Creaciones y Trabajos</span></h1>
+      <p class="subtitle">
+        Aquí puedes mostrar todos los proyectos en los que estés trabajando o hayas completado.
+      </p>
+      <div class="btn-group">
+        <a href="./index.html" class="btn btn-secondary">&larr; Volver al Inicio</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-icon">🎮</div>
+        <h3>Proyecto Videojuego</h3>
+        <p>Un juego interactivo desarrollado en JavaScript usando Canvas o HTML5, con mecánicas divertidas y fluidas.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛒</div>
+        <h3>E-Commerce Web</h3>
+        <p>Tienda online moderna con carrito de compras, catálogo de productos y diseño totalmente responsivo.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Panel de Control (Dashboard)</h3>
+        <p>Plataforma analítica con gráficos interactivos, estadísticas en tiempo real y modo oscuro.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Mi Portafolio Web. Creado con Vite y amor al código.</p>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>

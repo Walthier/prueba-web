@@ -1,0 +1,14 @@
+Portafolio Personal de Programación Web
+=========================================
+
+Estructura del Proyecto:
+- index.html: Página principal de bienvenida y presentación.
+- proyecto.html: Catálogo o muestra de proyectos desarrollados.
+- style.css: Hoja de estilos moderna y adaptable a móviles y PC.
+- script.js: Interactividad y lógica básica en JavaScript.
+- vite.config.js: Configuración de Vite para desarrollo y compilación.
+
+Comandos para usar:
+- npm run dev: Inicia el servidor de desarrollo en http://localhost:5173
+- npm run build: Genera la versión lista para producción en la carpeta dist/
+- npm run preview: Previsualiza el contenido compilado en dist/

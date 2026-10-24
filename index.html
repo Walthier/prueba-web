@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Web - Inicio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="./index.html" class="logo">
+        ⚡ <span>PorTFolio</span>.dev
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./index.html" class="active">Inicio</a></li>
+          <li><a href="./proyecto.html">Proyectos</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="badge">🚀 Proyecto Vite + HTML + CSS + JS</span>
+      <h1>Bienvenido a mi <span class="gradient-text">Portafolio Web</span></h1>
+      <p class="subtitle">
+        Esta es una página de prueba configurada con Vite. Lista para correr en modo local (localhost) y prepararse para subir a GitHub.
+      </p>
+      <div class="btn-group">
+        <a href="./proyecto.html" class="btn btn-primary">Ver Proyecto de Ejemplo &rarr;</a>
+        <a href="#demo" class="btn btn-secondary">Probar Interacción</a>
+      </div>
+    </section>
+
+    <section id="demo" class="counter-section">
+      <h2>Prueba de JavaScript Interactivo</h2>
+      <p>Haz clic para comprobar que los scripts y el recargado en vivo funcionan:</p>
+      <div id="count-display" class="counter-value">0</div>
+      <div class="btn-group">
+        <button id="btn-increment" class="btn btn-primary">+ Incrementar</button>
+        <button id="btn-reset" class="btn btn-secondary">Reiniciar</button>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-icon">💻</div>
+        <h3>Modo Localhost</h3>
+        <p>Con <code>npm run dev</code> tienes un servidor de desarrollo ultra rápido con Hot Module Replacement (HMR).</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📦</div>
+        <h3>Compilación para Producción</h3>
+        <p>Con <code>npm run build</code> Vite optimiza tus archivos y los coloca listos en la carpeta <code>dist/</code>.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🐙</div>
+        <h3>Listo para GitHub</h3>
+        <p>Configurado con <code>.gitignore</code> y rutas relativas para subir a tu repositorio o publicar en GitHub Pages.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Mi Portafolio Web. Creado con Vite y amor al código.</p>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
